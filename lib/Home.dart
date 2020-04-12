@@ -7,12 +7,8 @@ class Home extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(title: Text('Great Cap')),
         body: Container(
-          child: Column(
-            children: <Widget>[
-                  LandingPage(),
-                ],
-              )
+          child: LandingPage()
           ),
-        );
+    );
   }
 }

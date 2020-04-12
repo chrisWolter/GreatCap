@@ -10,6 +10,9 @@ class _LandingState extends State<LandingPage>{
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        padding: EdgeInsets.all(16.0),
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height,
       child: Column(
         children: <Widget>[
           TextField(
