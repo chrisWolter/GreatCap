@@ -16,6 +16,9 @@ class _LandingState extends State<LandingPage>{
       child: Column(
         children: <Widget>[
           TextField(
+            minLines: 8,
+            maxLines: null,
+            keyboardType: TextInputType.multiline,
             decoration: InputDecoration(
             border: OutlineInputBorder(),
             labelText: 'Deine Caption',
